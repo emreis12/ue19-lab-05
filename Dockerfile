@@ -1,4 +1,5 @@
-FROM python:3.13.0
+# Utilisez l'image de base Python
+FROM python:3
 
 # Définir le répertoire de travail dans le conteneur
 WORKDIR /usr/src/app
